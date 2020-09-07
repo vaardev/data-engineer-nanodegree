@@ -78,12 +78,19 @@ create_tables.sql
 Document Name                     Description
 
 create_tables.sql                -     Contains the DDL for all tables used within project DAG;
+
 sparkify_analytics_tables_dag.py -     The DAG configuration file to run in Airflow plugins;
-create_tables_dag.py             -     DAG used to create tables in Redshift and call create_tables.sql code;          
+
+create_tables_dag.py             -     DAG used to create tables in Redshift and call create_tables.sql code;      
+
 stage_redshift.py                -     Operator to read files from S3 and load into Redshift staging tables;
+
 load_fact.py                     -     Operator to load the fact table in Redshift;
+
 load_dimension.py                -     Operator to read from staging tables and load the dimension tables in Redshift;
+
 data_quality.py                  -     Operator for data quality checking;
+
 sql_queries                      -     Helper with Redshift statements used in the DAG;
 
 
