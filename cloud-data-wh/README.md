@@ -1,9 +1,13 @@
 Summary
 
 1.Introduction
+
 2.Configuration
+
 3.ETL Process
+
 4.Validation the results
+
 5.Database structure
 
 
