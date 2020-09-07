@@ -4,8 +4,11 @@ Sparkify Data Lake ELT process
 Summary
 
 1.Introduction
+
 2.Process description
+
 3.Data sources structure
+
 4.Parquet data schema - structure
 
 
